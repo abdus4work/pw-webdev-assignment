@@ -50,7 +50,8 @@ Answer:
     <!-- This is first heading -->
     <h1>Assignment1 Answer</h1>
     <hr>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, <br> molestias corporis. Cumque obcaecati quod quam ratione enim, ipsa aut! Facere.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, <br> 
+    molestias corporis. Cumque obcaecati quod quam ratione enim, ipsa aut! Facere.</p>
 </body>
 </html>
 
@@ -63,7 +64,8 @@ Tag:
 ----
 In HTML we use 'Tags' to define the structure and layout of Web pages.
 Tags provide the instructions to the browser, how to display the content.
-HTML tags are comprised of angled brackets '<>'. Tags typically comes in pairs, an opening tag (<tagname>) and a closing tag (</tagname>) but some tags exist whose don't have any closing tags.
+HTML tags are comprised of angled brackets '<>'. 
+Tags typically comes in pairs, an opening tag (<tagname>) and a closing tag (</tagname>) but some tags exist whose don't have any closing tags.
 
 Example: <h1></h1>, <p></p> etc.. are the Paired Tags.
         <br>,<hr> etc.. are the Singular Tags.
