@@ -23,4 +23,350 @@ Answer:
 2. Build a simple webpage that helps users navigate different web development-related websites.
     Note: on clicking the hyperlink the web pages should open in a new tab. Below is a reference image.
 Answer: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigate Me</title>
+</head>
+<body>
+    <h1>Navigate Me:</h1>
+    <p>
+        Take me to
+        <a href="https://pwsiklls.com" target="_blank">PW Skills</a> to buy a course.
+    </p>
+    <p>
+        Take me to
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN docs</a> to know more about Web Development.
+    </p>
+    <p>
+        Take me to
+        <a href="https://lab.pwsiklls.com/" target="_blank">PW Skills Lab</a> to practice live coding.
+    </p>
+</body>
+</html>
 
+-------------------------------------------------------------------------------------------------------------------
+
+3. Build a simple blog web page with 3 pages home, web development, and web design Each page must contain hyperlinks to other pages in the top, a heading of the page topic and a paragraph of information.
+For the home page you can add some information about yourself.
+Answer: 
+
+home.html
+
+<body>
+    <div>
+        <a href="./home.html">Home</a> |
+        <a href="./webDevelopment.html">Web Development</a> |
+        <a href="./webDesign.html">Web Design</a>
+    </div>
+    <div>
+        <h1>What is Web Development?</h1>
+        <p>
+            Web development refers to the process of creating and maintaining websites or web applications that run on the internet. It involves a variety of tasks, including web design, content creation, coding, scripting, server-side configuration, database management, security implementation, and more.
+            <br>
+            <br>
+            Web development can be broadly categorized into two main parts:
+            <br>
+            <br>
+            Front-end Development: This involves creating the visible parts of a website that users interact with directly. It includes designing the layout, content, and user interface using languages like HTML, CSS, and JavaScript. Front-end developers aim to create a visually appealing, responsive, and user-friendly experience.
+            <br>
+            <br>
+            Back-end Development: This focuses on the server-side of web development. It involves working on the behind-the-scenes functionalities that power the website, such as server configuration, databases, handling user requests, server scripting, and ensuring the website's functionality and performance. Back-end developers often use languages like Python, Ruby, PHP, Java, and frameworks like Node.js, Django, Ruby on Rails, etc.
+        </p>
+    </div>
+</body>
+
+webDevelopment.html
+
+<body>
+    <div>
+        <a href="./home.html">Home</a> |
+        <a href="./webDevelopment.html">Web Development</a> |
+        <a href="./webDesign.html">Web Design</a>
+    </div>
+    <div>
+        <h1>What is Web Design?</h1>
+        <p>
+            WWeb development refers to the process of creating and maintaining websites or web applications that run on the internet. It involves a variety of tasks, including web design, content creation, coding, scripting, server-side configuration, database management, security implementation, and more.eb design refers to the process of creating the visual elements and layout of a website. It involves the planning, conceptualization, and arrangement of different components on web pages to achieve an aesthetically pleasing and user-friendly interface. Web designers focus on the overall look and feel of the site, ensuring it's visually appealing, easy to navigate, and effectively communicates the intended message or purpose. 
+        </p>
+    </div>
+</body>
+
+webDesign.html
+
+<body>
+    <div>
+        <a href="./home.html">Home</a> |
+        <a href="./webDevelopment.html">Web Development</a> |
+        <a href="./webDesign.html">Web Design</a>
+    </div>
+    <div>
+        <h1>What is Web Design?</h1>
+        <p>
+            Web design refers to the process of creating the visual elements and layout of a website. It involves the planning, conceptualization, and arrangement of different components on web pages to achieve an aesthetically pleasing and user-friendly interface. Web designers focus on the overall look and feel of the site, ensuring it's visually appealing, easy to navigate, and effectively communicates the intended message or purpose. 
+        </p>
+    </div>
+</body>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Create an ordered list of HTML tags. Each list item must include the tag name and some information about the tag.
+Answer: 
+
+<body>
+    <h1>List of Tags.</h1>
+    <ol>
+        <li>h1 to h6: Defines different level of heading.</li>
+        <li>div: Defines a paragraph of text.</li>
+        <li>table: Defines a table with rows and columns.</li>
+        <li>ol: Defines an ordered list.</li>
+        <li>ul: Defines an unordered list.</li>
+    </ol>
+</body>
+
+---------------------------------------------------------------------------------------------------
+
+5. Create a description list of full stack web development tech stack, using the <dl> tag.
+Each term should be a tech stack name and each description should be a brief explanation of what the tech stack is used for.
+Answer:
+
+<body>
+    <h1>Full Stack Web Development Tech Stack:</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>Java Script</dd>
+        <dt>Node.js</dt>
+        <dd>Node.js</dd>
+        <dt>Express.js</dt>
+        <dd>Express.js</dd>
+        <dt>MySQL</dt>
+        <dd>MySQL</dd>
+        <dt>MongoDB</dt>
+        <dd>MongoDB</dd>
+        <dt>PostgreSQL</dt>
+        <dd>PostgreSQL</dd>
+        <dt>React.js</dt>
+        <dd>React.js</dd>
+        <dt>Bootstrap</dt>
+        <dd>Bootstrap</dd>
+    </dl>
+</body>
+
+--------------------------------------------------------------------------------------------------------
+
+6. Create an ordered list of the full stack web development tech stack HTML, CSS, and JS.
+For each tech stack, create a table that lists the tech stack name, its primary use cases, and some key features or benefits. Below is a reference image.
+Answer: 
+
+<body>
+    <ol>
+        <li>
+            <h1>HTML</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Primary Use Cases</th>
+                        <th>Key Features/Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Building the structure of web pages</td>
+                        <td>
+                            <ul>
+                                <li>Simple and easy to learn</li>
+                                <li>Compatible with all web browsers</li>
+                                <li>Allows for semantic markup</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>
+            <h1>CSS</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Primary Use Cases</th>
+                        <th>Key Features/Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CSS is primarily used for styling the visual aspects of web pages, 
+                            controlling elements' appearance, including fonts, colors, 
+                            backgrounds, spacing, and borders.
+                        </td>
+                        <td>
+                                <ul>
+                                    <li>Responsive Design</li>
+                                    <li>Consistent styling across multiple pages</li>
+                                    <li>Browser compatibility</li>
+                                    <li>Support for animations and interactivity</li>
+                                </ul>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </li>
+        <li>
+            <h1>JavaScript</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Primary Use Cases</th>
+                        <th>Key Features/Benefits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JavaScript's versatility on the client side makes it integral for creating responsive, interactive, and feature-rich web experiences.</td>
+                        <td>
+                            <ul>
+                                <li>Client-Side Interactivity</li>
+                                <li>Cross-platform compatibility</li>
+                                <li>Asynchronous Communication</li>
+                                <li>DOM Manipulation</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+    </ol>
+</body>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Build a complex nested list structure representing a multi-level table of contents. 
+Use unordered lists (<ul>) and list items (<li>) with inline-block styling to create a structured layout.
+Apply formatting tags to enhance the presentation of list items.
+
+Answer:
+
+  <body>
+    <h1>Table of Contents</h1>
+    <ul>
+      <li><a href="#">Part 1: Introduction</a></li>
+      <li>
+        <a href="#">Part 2: Getting Started</a>
+        <ul>
+          <li><a href="#">2.1 Installing the Software</a></li>
+          <li>
+            <a href="#">2.2 Creating a New Project</a>
+            <ul>
+              <li><a href="#">2.2.1 Project Templates</a></li>
+              <li><a href="#">2.2.2 Customizing Settings</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">2.3 Exploring the Interface</a>
+            <ul>
+              <li><a href="#">2.3.1 Toolbar Features</a></li>
+              <li>
+                <a href="#">2.3.2 Panel Layout</a>
+                <ul>
+                  <li><a href="#">2.3.2.1 Docking Panels</a></li>
+                  <li><a href="#">2.3.2.2 Tabbed Interface</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Part 3: Advanced Topics</a>
+        <ul>
+          <li>
+            <a href="#">3.1 Working with Plugins</a>
+            <ul>
+              <li><a href="#">3.1.1 Installing Plugins</a></li>
+              <li><a href="#">3.1.2 Plugins Configuration</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">3.2 Customizing the UI</a>
+            <ul>
+              <li><a href="#">3.2.1 Changing Themes</a></li>
+              <li><a href="#">Configuring Shortcuts</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">3.3 Optimizing Performance</a>
+            <ul>
+              <li><a href="#">3.3.1 Caching Strategies</a></li>
+              <li><a href="#">3.3.2 Resource Minification</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Part 4: Conclusion</a>
+      </li>
+    </ul>
+  </body>
+
+  -----------------------------------------------------------------------------------------------
+
+8. Create a table to display a conference schedule.
+Each row corresponds to a time slot, and each column corresponds to a room.
+Same time slots might have multiple sessions running simultaneously in different rooms.
+Utilize rowspan and colspan attributes as necessary to accommodate this complex schedule.
+
+Answer: 
+
+<body>
+    <h1>Conference Schedule</h1>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room 1</th>
+                <th>Room 2</th>
+                <th>Room 3</th>
+                <th>Room 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">9:00 AM - 10:00 AM</td>
+                <td rowspan="2">Keynote</td>
+                <td>Session A</td>
+                <td>Session B</td>
+                <td rowspan="3">Session C</td>
+            </tr>
+            <tr>
+                <td>Session D</td>
+                <td>Session D</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 11:30 AM</td>
+                <td colspan="2">Session F</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td colspan="4">Lunch Break</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1:00 PM - 2:00 PM</td>
+                <td>Session G</td>
+                <td rowspan="2">Session H</td>
+                <td>Session I</td>
+                <td>Session J</td>
+            </tr>
+            <tr>
+                <td>Session K</td>
+                <td>Session L</td>
+                <td>Session M</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
