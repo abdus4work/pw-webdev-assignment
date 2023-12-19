@@ -1,0 +1,229 @@
+1. List out the features of HTML5.
+Answer:
+HTML5 introduced several new features and improvements over its predecessors. Some of the key features include:
+
+    1. Semantics: New semantic elements like <header>, <footer>, <nav>, <article>, <section>, etc., help define the structure of a web page more meaningfully.
+
+    2. Audio and Video Support: Native support for embedding audio and video content using <audio> and <video> tags, allowing playback without plugins.
+
+    3. Canvas: The <canvas> element enables dynamic, scriptable rendering of 2D shapes and bitmap images, often used for games or interactive graphics.
+
+    4. SVG Support: HTML5 introduced support for Scalable Vector Graphics (SVG) as a native element, enabling high-quality resolution-independent graphics.
+
+    5. Geolocation API: Allows websites to access geographical location information of users (with permission), enabling location-aware functionality.
+
+    6. Web Storage: Local Storage and Session Storage allow storing data on the client-side, persisting even after the browser is closed.
+
+    7. Web Workers: Allows running scripts in the background without interrupting the user interface, enabling multitasking and improving performance.
+
+    8. Web Sockets: Provides full-duplex communication channels over a single, long-lived connection, enabling real-time communication between a client and a server.
+
+    9. Offline Web Applications: Using technologies like the Application Cache and Service Workers, HTML5 allows web applications to work offline or in low-connectivity scenarios.
+
+    10. Responsive Design: HTML5 introduced features that aid in creating responsive web designs that adapt to different devices and screen sizes, such as media queries.
+
+    11. Drag and Drop: Native support for drag-and-drop functionality, making it easier to implement intuitive interactions on web pages.
+
+    12. Form Improvements: New input types (<input type="date">, <input type="email">, etc.) and attributes enhance form validation and user experience
+
+-----------------------------------------------------------------------------------
+
+2. What are HTML Entities? List out 5 commonly used HTML entities.
+Answer:
+HTML entities are special codes used to represent characters that have a reserved meaning in HTML or characters that are not easily typable on a keyboard. They are written as an ampersand (&) followed by a specific code and then a semicolon (;). Here are five commonly used HTML entities:
+
+    1. &lt; - Represents the less-than symbol <.
+    2. &gt; - Represents the greater-than symbol >.
+    3. &amp; - Represents the ampersand & itself.
+    4. &quot; - Represents the double quotation mark ".
+    5. &nbsp; - Represents a non-breaking space, useful for creating multiple spaces that won't collapse into one in HTML.
+
+-----------------------------------------------------------------------------------
+
+3. Define accessibility in the context of web development. Discuss why it's essential to create accessible websites and how it benefits different user groups.
+Answer:
+Accessibility in web development refers to the practice of designing and developing websites and applications in a way that ensures they are usable by as many people as possible, regardless of any disabilities or impairments they may have. This includes but is not limited to visual, auditory, physical, speech, cognitive, and neurological disabilities. The aim is to provide equal access and opportunity to information and functionality.
+
+Creating accessible websites is essential for several reasons:
+
+   1. Inclusivity: It ensures that everyone, including individuals with disabilities, can access and interact with web content. It promotes inclusivity and diversity by breaking down barriers that might otherwise prevent certain groups of people from using digital services.
+
+   2. Legal Compliance: Many countries have laws and regulations that mandate web accessibility. Non-compliance can lead to legal issues and penalties.
+
+   3. Better User Experience for All: Accessible design often leads to a better user experience for everyone. For instance, clear navigation benefits not only visually impaired users but also users on mobile devices or those in a noisy environment who may be relying on screen readers or voice commands.
+
+   4. Improved SEO: Many accessibility practices, such as providing alternative text for images, can also improve search engine optimization (SEO) by making content more understandable to search engine crawlers.
+
+   5. Wider Audience and Market Reach: Making websites accessible can expand the audience and market reach for businesses and organizations. By accommodating various disabilities, they attract more users and potential customers.
+
+Accessibility benefits different user groups in various ways:
+
+   1. Visual Impairments: Screen readers interpret content for blind or visually impaired users, while proper contrast, descriptive text for images, and scalable fonts aid those with low vision.
+
+   2. Auditory Impairments: Transcripts or captions for audio content benefit users who are deaf or hard of hearing.
+
+   3. Motor Impairments: Keyboard navigation options and the avoidance of small clickable areas cater to users with motor disabilities who may rely on alternative input devices.
+
+   4. Cognitive and Neurological Disabilities: Clear and consistent design, easy-to-understand content, and simple navigation help users with cognitive or neurological disabilities, such as dyslexia or ADHD.
+
+-----------------------------------------------------------------------------------
+
+4. List any 3 ways which help us in improving the accessibility of HTML.
+Answer:
+Certainly! Improving HTML accessibility involves implementing practices that make content more understandable, navigable, and usable for a wider range of users. Here are three key ways to enhance HTML accessibility:
+
+    1. Semantic HTML Markup:
+    Using semantic HTML elements appropriately helps assistive technologies and browsers understand the structure and meaning of content. Key semantic elements like <header>, <nav>, <main>, <footer>, <article>, and <section> aid in organizing content and improve navigation for users. Instead of relying solely on <div> elements for layout, incorporating these semantic elements ensures a clearer structure, benefiting screen readers and other assistive technologies.
+
+    2. Proper Use of Alternative Text (Alt Text):
+    Providing descriptive and meaningful alternative text for images using the alt attribute within the <img> tag is crucial. Alt text serves as a textual alternative for users who cannot see images, allowing screen readers to convey the content of images to visually impaired users. It's important to write concise yet descriptive alt text that conveys the purpose or function of the image.
+
+    3. Form Accessibility:
+    Enhancing accessibility in forms involves various considerations. Labeling form elements using the <label> tag ensures clear associations between form inputs and their labels, aiding users who rely on screen readers. Additionally, using appropriate input types (type="text", type="email", type="number", etc.) helps browsers and assistive technologies understand the expected format of user input, facilitating better user interaction and validation.
+
+-----------------------------------------------------------------------------------
+
+5. Create a web page that highlights the features of HTML5.
+Use appropriate semantic tags to structure the  content and showcase at least three key features of HTML5 with explanations.
+Answer:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>HTML5 Features</h1>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            explicabo esse aperiam iure magnam totam optio tempora cum fuga
+            facilis? Temporibus, dolores. Repellat reprehenderit natus cum aut
+            dolores ut ab, architecto iure facere amet accusamus maiores neque
+            quam velit hic voluptatibus expedita, minima aspernatur explicabo
+            voluptatum eligendi ipsa quo soluta. Enim nemo optio quasi
+            accusantium dolore asperiores, officia iure facere vero aspernatur
+            pariatur, dolorum numquam aut error deleniti provident culpa velit!
+            Numquam excepturi pariatur ab, ad sed iste nostrum neque architecto
+            distinctio quo magnam, adipisci dolore inventore molestiae, laborum
+            illo eos perferendis voluptatum nisi. Dicta distinctio, quas,
+            pariatur atque soluta saepe commodi provident, velit nisi ipsam
+            minus voluptatum laborum vero amet est maxime expedita eaque! Rem
+            voluptatum esse sed officiis omnis sapiente saepe dolores
+            necessitatibus quia voluptas, pariatur, laboriosam earum temporibus
+            delectus! Provident, magni aliquid amet, assumenda, facilis itaque
+            cum labore exercitationem ea aliquam eaque libero excepturi. Odit
+            accusamus modi itaque possimus magni eum laudantium nostrum
+            distinctio id repudiandae. Quidem obcaecati exercitationem veniam,
+            pariatur distinctio consequatur quaerat totam laboriosam, velit
+            optio, id minima enim nisi odit quasi corrupti? Ea eos delectus
+            repellendus! Expedita ullam ducimus ratione sit? Ab impedit delectus
+            exercitationem quae quod sit, voluptates sequi recusandae obcaecati,
+            voluptatibus porro deleniti optio accusamus beatae sunt placeat
+            error illo accusantium consequatur corrupti velit reiciendis vel
+            minima in! Culpa adipisci, sunt nostrum minima veniam facere, ipsam
+            tenetur sed illum id labore, iure libero. Reiciendis sunt ipsam vel.
+            Omnis ipsum labore quae ipsa cupiditate unde minus? Rerum sequi,
+            cumque eaque repudiandae aspernatur, sapiente, delectus officiis
+            soluta pariatur aliquam nesciunt corrupti sed blanditiis molestias.
+            Ipsum maxime modi harum ducimus quia impedit eligendi omnis ratione
+            ea at, obcaecati recusandae ut quae dignissimos iste deserunt, sequi
+            praesentium reprehenderit et! Consequatur quo eveniet hic! Ullam,
+            perspiciatis voluptatibus reiciendis commodi fuga laudantium fugit,
+            quod quos eius ratione adipisci.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2>Video Features:</h2>
+        <video src="./assets/video (2160p).mp4" width="600" controls></video>
+      </section>
+      <section>
+          <h2>Audio Features:</h2>
+          <audio src="./assets/rain-sound.mp3" controls></audio>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Sadik &copy; 2023</p>
+    </footer>
+  </body>
+</html>
+
+
+-----------------------------------------------------------------------------------
+
+6. Create a simple web page which has a table. The table must have 2 columns HTML and HTML5.
+The table should include a minimum of three rows describing the differences between HTML and HTML5.
+Answer:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML v/s HTML5</title>
+  </head>
+  <body>
+    <h1>Difference between HTML and HTML5:</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>HTML</th>
+          <th>HTML5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            It required plugins like Adobe Flash to support audio and video
+            content.
+          </td>
+          <td>
+            Provides built-in support for multimedia elements such as video and
+            audio without the need for a plugin.
+          </td>
+        </tr>
+        <tr>
+          <td>It has fewer elements as compared to HTML5.</td>
+          <td>
+            It includes new elements and form attributes such as time, date, and
+            colour. Required and autofocus in input types of the tag element as
+            well.
+          </td>
+        </tr>
+        <tr>
+          <td>It does not have support for local storage.</td>
+          <td>It has support for local storage i.e. localStorage.</td>
+        </tr>
+        <tr>
+          <td>
+            Less semantic elements, thereby providing less web accessibility
+            features.
+          </td>
+          <td>
+            <p>
+              It supports more semantic elements, such as &lt;header&gt;,
+              &lt;footer&gt;, &lt;nav&gt;, and &lt;article&gt;, thereby
+              improving accessibility.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+
+-----------------------------------------------------------------------------------
