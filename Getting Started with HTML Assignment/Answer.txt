@@ -1,0 +1,87 @@
+1. Write a simple program in HTML that displays the heading "HTML defines the content and Structure of your website" on the browser?
+Answer:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-1 Answer</title>
+</head>
+<body>
+    <h1>HTML defines the content and Structure of your website</h1>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------
+
+2. Explain the purpose of comment in HTML and provide an example of how to use comments in an HTML document?
+Answer:
+
+Comments in HTML serve as non-rendering notes or explanations within the code.
+we used comment to annotate the HTML to provide information for developers or anyone working the codebase without affecting the page which is rendering in the browser.
+In HTML anything between <!-- and --> will be treated as comments and not rendered by the browser.
+
+Example: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-1 Answer</title>
+</head>
+<body>
+    <!-- This is first heading -->
+    <h1>HTML defines the content and Structure of your website</h1>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------
+
+3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break.
+Arrange these element to create a simple web page layout?
+Answer:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-1 Answer</title>
+</head>
+<body>
+    <!-- This is first heading -->
+    <h1>Assignment1 Answer</h1>
+    <hr>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, <br> 
+    molestias corporis. Cumque obcaecati quod quam ratione enim, ipsa aut! Facere.</p>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------
+
+4. Write a short note on Tag and Element with an example?
+Answer:
+
+Tag:
+----
+In HTML we use 'Tags' to define the structure and layout of Web pages.
+Tags provide the instructions to the browser, how to display the content.
+HTML tags are comprised of angled brackets '<>'. 
+Tags typically comes in pairs, an opening tag (<tagname>) and a closing tag (</tagname>) but some tags exist whose don't have any closing tags.
+
+Example: <h1></h1>, <p></p> etc.. are the Paired Tags.
+        <br>,<hr> etc.. are the Singular Tags.
+
+Element:
+--------
+HTML elements are the building blocks of an HTML document.
+It made up  of the opening tag, the content, and the closing tag (when applicable).
+It defines the structure and semantic of the content.
+
+Example: <h1>This is an example of element</h1>.
+
+----------------------------------------------------------------------------------------------
+
+5. What is the DOCTYPE declaration in HTML?
+Answer:
+
+The DOCTYPE declaration in HTML tells the browser about the version of the HTML in which the webpage is written.
+For HTML5, the DOCTYPE declaration is simplified to just <!DOCTYPE html>.

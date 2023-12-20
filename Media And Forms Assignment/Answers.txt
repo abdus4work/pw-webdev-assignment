@@ -1,0 +1,157 @@
+1. Create an image gallery that holds multiple images.
+Answer:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <img src="./images/image-1.jpg" width="400" alt="Dummy image" />
+    <img src="./images/image-2.jpg" width="500" alt="Dummy image" />
+    <img src="./images/image-3.jpg" width="400" alt="Dummy image" />
+    <img src="./images/image-4.jpg" width="600" height="500" alt="Dummy image" />
+    <img src="./images/image-5.jpg" width="500" height="500" alt="Dummy image" />
+  </body>
+</html>
+
+--------------------------------------------------------------------------------------
+
+2. Use video and audio tags to display video and audio with the playback, and audio controls.
+Answer:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video and Audio</title>
+</head>
+<body>
+<audio src="./assets/rain-sound.mp3" controls>Rain Sound</audio>
+<video src="./assets/video (2160p).mp4" width="600" controls></video>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------
+
+3.Modify the previous assignment so that the audio and video play automatically as the page is loaded and
+they should play infinitely.
+
+Answer:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video and Audio</title>
+  </head>
+  <body>
+    <audio src="./assets/rain-sound.mp3" controls autoplay muted loop>Rain Sound</audio>
+    <video src="./assets/video (2160p).mp4" width="600" controls autoplay muted loop></video>
+  </body>
+</html>
+
+-------------------------------------------------------------------------------------
+
+4. Use iframe to embed the PhysicsWallah Wikipedia page properly.
+
+Answer: 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PW wikipedia</title>
+  </head>
+  <body>
+    <iframe
+      src="https://en.wikipedia.org/wiki/Physics_Wallah"
+      style="border: none"
+      name="pw-wiki-frame"
+      scrolling="yes"
+      marginheight="0px"
+      marginwidth="0px"
+      height="400px"
+      width="600px"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
+
+--------------------------------------------------------------------------------------
+
+5. Create a Sign-up and sign-in form with proper validation.
+a) Sign-up form should have a first name, last name, email, password, confirm password, age, gender, and agree to terms and conditions fields at minimum.
+b) Sign-in form should have email and password fields.
+
+Answer:
+
+a) 
+----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="" method="get">
+        <label for="first-name">First Name: </label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter Your First Name" required minlength="3">
+        <br>
+        <label for="last-name">Last Name: </label>
+        <input type="text" name="last-name" id="last-name" placeholder="Enter Your Last Name" required minlength="3">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required><br>
+        <label for="cnf-pass">Confirm Password: </label>
+        <input type="password" name="cnf-pass" id="cnf-pass" required><br>
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" placeholder="26" required min="0" max="150"><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label><br>
+        <label for="term">Terms: </label>
+        <input type="checkbox" name="term" id="term" required> I agree to terms and conditions <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
+
+b)
+-----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <h1>Sign In</h1>
+    <form action="" method="get">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required><br>
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------
