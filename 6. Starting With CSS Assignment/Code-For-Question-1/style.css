@@ -1,0 +1,17 @@
+.external{
+    color:green;
+    font-size: 25px;
+}
+.inline-external{
+    color:brown;
+    font-size: 30px;
+}
+
+.internal-external{
+    color:brown;
+    font-size: 30px;
+}
+.inline-internal-external{
+    color:red;
+    font-size: 35px;
+}
