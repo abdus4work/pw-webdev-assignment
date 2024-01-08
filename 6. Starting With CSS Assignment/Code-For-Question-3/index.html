@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Register</div>
+      <form action="#">
+        <div class="form-row">
+          <div class="inp-data">
+            <label for="f-name">First Name</label>
+            <input
+              type="text"
+              name="f-name"
+              id="f-name"
+              placeholder="John"
+              minlength="3"
+            />
+          </div>
+          <div class="inp-data">
+            <label for="l-name">Last Name</label>
+            <input type="text" name="l-name" id="l-name" placeholder="Doe" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="inp-data">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="abc@xyz.com"
+            />
+          </div>
+          <div class="inp-data">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" placeholder="21" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="inp-data">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="inp-data">
+            <label for="confirm-pass">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm-pass"
+              id="confirm-pass"
+              placeholder="Confirm Password"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data">
+            <label for="gender"
+              >Gender
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="other" />
+              <label for="other">Other</label>
+            </label>
+          </div>
+          <div class="input-data">
+            <input type="checkbox" name="term" id="term">
+            <label for="term">Agree to Terms and Condition</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="btn">
+            <input type="submit" value="Submit" id="submit-btn">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

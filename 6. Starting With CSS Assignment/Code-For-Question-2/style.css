@@ -1,0 +1,15 @@
+*{
+    font-size: 25px;
+}
+.main__heading {
+  color: red;
+}
+.main__subheading {
+  color: blue;
+}
+.hero__title {
+  color: green;
+}
+.hero__description {
+  color: brown;
+}
