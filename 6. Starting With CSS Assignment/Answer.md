@@ -1,7 +1,9 @@
-## 1. Create a simple page with some div tags and show different ways to add css as well as what happens when you target the same elements with inline, internal and external CSS. Also utilize comments in the project where required.
+### 1. Create a simple page with some div tags and show different ways to add css as well as what happens when you target the same elements with inline, internal and external CSS. Also utilize comments in the project where required.
 
-### index.html
-<div style="overflow: auto; height: 500px;">
+<details>
+<summary>
+  Expand Code -index.html 
+</summary>
 
 ```HTML
 <!DOCTYPE html>
@@ -43,9 +45,13 @@
 </body>
 </html>
 ```
-</div>
+</details>
 
-### style.css
+<details>
+<summary>
+  Expand Code -style.css 
+</summary>
+
 ```CSS
 .external{
     color:green;
@@ -65,13 +71,21 @@
     font-size: 35px;
 }
 ```
+</details>
+
 ### output
+
 ![output-1](./Output/output-1.png)
-___
 
-## 2. Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and explain how you've named the classes.
+---
 
-### index.html
+### 2. Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and explain how you've named the classes.
+
+<details>
+<summary>
+  Expand Code -index.html 
+</summary>
+
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -93,7 +107,13 @@ ___
   </body>
 </html>
 ```
-### style.css
+</details>
+
+<details>
+<summary>
+  Expand Code -style.css 
+</summary>
+
 ```CSS
 *{
     font-size: 25px;
@@ -111,15 +131,20 @@ ___
   color: brown;
 }
 ```
+</details>
+
 ### Output
+
 ![output-2](./Output/output-2.png)
-___
 
-## 3. Develop an HTML form with various input elements Use CSS to style the form, including setting background color for input fields. Create a custom color palette for the form elements, and demonstrate how to apply opacity to the form sections.
+---
 
-### index.html
+### 3. Develop an HTML form with various input elements Use CSS to style the form, including setting background color for input fields. Create a custom color palette for the form elements, and demonstrate how to apply opacity to the form sections.
 
-<div style="overflow: auto; height: 500px;">
+<details>
+<summary>
+  Expand Code -index.html 
+</summary>
 
 ```HTML
  <!DOCTYPE html>
@@ -219,11 +244,13 @@ ___
 </html>
 
 ```
-</div>
 
-### style.css
+</details>
 
-<div style="overflow: auto; height: 500px;">
+<details>
+<summary>
+  Expand Code -style.css 
+</summary>
 
 ```CSS
 body {
@@ -350,7 +377,8 @@ form .inp-data {
 
 ```
 
-</div>
+</details>
 
 ### Output
+
 ![output-3](./Output/output-3.png)
