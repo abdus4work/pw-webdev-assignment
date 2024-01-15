@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .card{
+            width: 400px;
+            background-color: #f8c42e;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 50px auto;
+            opacity: 0.5;
+            transition: all 0.5s ease-in-out;
+        }
+        .thumbnail{
+            width: inherit;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .desc{
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #000;
+            margin: 10px 0;
+        }
+        .card:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="thumbnail" src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fassets%2Fuploads%2Fthumbnails%2F64a514966977cc6e87e27504.jpg&w=1920&q=75" alt="">
+        <p class="desc">
+            <b>Course name:</b> PW Skills full stack web development.
+        </p>
+    </div>
+</body>
+</html>

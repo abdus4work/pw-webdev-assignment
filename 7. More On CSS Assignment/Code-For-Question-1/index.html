@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header{
+            background-color: #0d61df;
+        }
+        nav{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 50px;
+            
+        }
+        nav a{
+            color:#fff;
+            padding: 0 15px;
+            text-decoration: none;
+            line-height: 50px;
+        }
+        nav a:hover{
+            color: #fff;
+            background-color:gray;
+        }
+        nav a.active{
+            color: #000;
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+</body>
+</html>
