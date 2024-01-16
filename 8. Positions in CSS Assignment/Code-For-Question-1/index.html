@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            border: 1px solid red;
+            text-align: center;
+        }
+        .box-a{
+            position:relative;
+            top:200px;
+            left: 200px;
+        }
+        .box-b{
+            position:absolute;
+            top: -30px;
+            left: -30px;
+        }
+        .box-c{
+            position:absolute;
+            right: -30px;
+            top: -30px;
+        }
+        .box-d{
+            position:absolute;
+            bottom: -30px;
+            left: -30px;
+        }
+        .box-e{
+            position:absolute;
+            bottom: -30px;
+            right: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-a box">A
+        <div class="box-b box">B</div>
+        <div class="box-c box">C</div>
+        <div class="box-d box">D</div>
+        <div class="box-e box">E</div>
+    </div>
+</body>
+</html>
