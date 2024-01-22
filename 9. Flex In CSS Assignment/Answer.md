@@ -3,4 +3,4 @@
 
 **FlexBox:** Flexbox is primarily designed for one-dimensional layouts, focusing on distributing space and aligning items along a single axis. It's best suited  for layouts where we have a row or column of items, such as navigation menus, card-based design or centering content within a container.
 
-**Grid:** Grid is designed for two-dimensional layouts, allowing us to
+**Grid:** Grid is designed for two-dimensional layouts, allowing us to define
