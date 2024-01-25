@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3,200px);
+            padding: 15px;
+            gap: 15px;
+        }
+        img{
+         width: 100%;  
+         height: 100%; 
+         border-radius: 10px;
+        }
+        .img-1{
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .img-3{
+            grid-row: 2/4;
+        }
+        .img-6{
+            grid-column: 3;
+            grid-row:2/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-1"><img src="./assets/ocean.jpg" alt="ocean" ></div>
+        <div class="img-2"><img src="./assets/paris.jpg" alt="paris"></div>
+        <div class="img-3"><img src="./assets/rocks.jpg" alt="rocks"></div>
+        <div class="img-4"><img src="./assets/underwater.jpg" alt="underwater"></div>
+        <div class="img-5"><img src="./assets/wedding.jpg" alt="wedding"></div>
+        <div class="img-6"><img src="./assets/mountainskies.jpg" alt="mountainskies"></div>
+    </div>
+</body>
+</html>
