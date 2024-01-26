@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+        }
+        header,footer{
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            
+        }
+        main{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+        }
+        .sidebar,.content{
+            flex:1;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .sidebar{
+            
+            background-color: #66cc99;
+        }
+        .content{
+            background-color: orange;
+        }
+        @media screen and (max-width: 768px) {
+            body{
+                flex-direction: column;
+            }
+            .sidebar,.content{
+                flex:0;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>Box-1</header>
+    <main>
+        <div class="sidebar">Box-2</div>
+        <div class="content">Box-3</div>
+    </main>
+    <footer>Box-4</footer>
+</body>
+</html>
