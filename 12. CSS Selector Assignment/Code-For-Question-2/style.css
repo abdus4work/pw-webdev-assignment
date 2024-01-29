@@ -1,0 +1,12 @@
+ul li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+ul li{
+    display: inline;
+}
+li+li{
+    margin:10px
+}
