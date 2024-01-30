@@ -34,7 +34,7 @@
 </html>
 ```
 ### output:
-![output](./Outputs/output-1.PNG)
+![output-1](./Outputs/output-1.PNG)
 
 ## 2. Create a 3D cube using the transform property of CSS.
 ### index.html
@@ -124,7 +124,7 @@
 </html>
 ```
 ### Output:
-![output](./Outputs/output-2.PNG)
+![output-2](./Outputs/output-2.PNG)
 
 ## 3. Create a simple circular loader which will rotate continuously to look like a loading screen on a website.
 ### index.html
