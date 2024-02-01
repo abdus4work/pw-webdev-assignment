@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="m-0 flex justify-center items-center h-screen w-full">
+    <div class="sm:container md:p-10 flex justify-center items-center md:gap-5">
+        <div class="lg:w-1/2 lg:ml-10 flex flex-col items-center ">
+            <h1 class="text-3xl text-center">Login</h1>
+            <p class="text-center my-8 text-slate-400">Enter your credential to access your account</p>
+            <button class="flex gap-4 justify-center items-center border-2 w-full lg:w-3/4 py-2 my-2">
+                <img src="./pngwing.com.png" width="30" alt="">
+                <span>Login with Google</span>
+            </button>
+            <div class="w-full lg:w-3/4 flex justify-center items-center gap-5 my-10">
+                <div class="line w-1/2 h-0 border-[1px] border-gray-300"></div>
+                <div class="or">Or</div>
+                <div class="line w-1/2 h-0 border-[1px] border-gray-300"></div>
+            </div>
+            <div class="w-full lg:w-3/4 flex flex-col items-center">
+                <form action="" class="w-full" >
+                    <div class="input-data">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="w-full p-2 rounded border-[1px] border-black my-2" name="email" id="emali"
+                            placeholder="email@gmail.com">
+                    </div>
+                    <div class="input-data my-10">
+                        <div class="flex justify-between my-2">
+                            <label for="password">Password</label>
+                            <a href="#" class="text-blue-600 font-semibold">Forgot Password?</a>
+                        </div>
+                        <input type="password" class="w-full p-2 rounded border-[1px] border-black" name="password"
+                            id="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded my-2">Login</button>
+                </form>
+                <span class="my-4">Don't have an account? <a href="#" class="font-semibold">Register here</a></span>
+            </div>
+        </div>
+        <div class="hidden w-1/2 sm:flex justify-center">
+            <img src="./woman-img-min.jpg" class=" w-3/4 " alt="">
+        </div>
+    </div>
+</body>
+
+</html>
